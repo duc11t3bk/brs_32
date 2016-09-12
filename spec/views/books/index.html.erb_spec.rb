@@ -71,5 +71,26 @@ RSpec.describe "books/index", type: :view do
       end
     end
 
+
+    describe "test with mock and stub" do
+      before do
+        book1 = double "book"
+        book2 = double "book"
+        category1= double "category"
+        category2= double "category"
+        author1= double "author"
+        author2= double "author"
+        assign :books, [book1, book2]
+        assign :categories, [category1, category2]
+        assign :authors, [author1, author2]
+        allow(view).to receive_messages(paginate: nil)
+        @request.env["devise.mapping"] = Devise.mappings[:user]
+        sign_in FactoryGirl.create(:user)
+      end
+
+      context "should have two link book" do
+        allow(Book)
+      end
+    end
   end
 end
