@@ -1,5 +1,5 @@
 $(document).on("ready page:load", function(){
-  $('#book_cover_image_name').fileinput({
+  $('#book_cover_image_name1').fileinput({
     showUpload : false,
     showRemove : false,
     previewFileType: "image"
@@ -19,6 +19,10 @@ $(document).on("ready page:load", function(){
     autoclose: true,
     todayBtn: true
   });
+
+  Dropzone.options.new_book = {
+    paramName: "book[cover_image_name]"
+  }
 });
 
 

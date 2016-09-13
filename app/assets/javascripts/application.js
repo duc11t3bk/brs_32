@@ -18,6 +18,7 @@
 //= require theme.min
 //= require relationships
 //= require fileinput.min
+//= require dropzone
 //= require bootstrap-datetimepicker.min
 //= require social-share-button
 //= require_tree .

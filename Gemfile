@@ -29,6 +29,7 @@ gem "bootstrap-glyphicons"
 gem "simple_form"
 gem "friendly_id", "~> 5.1.0"
 gem "social-share-button"
+gem "dropzonejs-rails"
 
 group :development, :test do
   gem "sqlite3",     "1.3.9"

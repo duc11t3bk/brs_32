@@ -14,6 +14,7 @@
  *= require fileinput.min
  *= require bootstrap.min
  *= require bootstrap-datetimepicker.min
+ *= require dropzone/basic
  *= require social-share-button
  *= require_tree .
  *= require_self

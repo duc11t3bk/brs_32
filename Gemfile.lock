@@ -94,6 +94,8 @@ GEM
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
     docile (1.1.5)
+    dropzonejs-rails (0.7.3)
+      rails (> 3.1)
     erubis (2.7.0)
     execjs (2.7.0)
     factory_girl (4.7.0)
@@ -323,6 +325,7 @@ DEPENDENCIES
   config
   database_cleaner
   devise
+  dropzonejs-rails
   factory_girl_rails (~> 4.0)
   faker (= 1.4.2)
   figaro
@@ -356,4 +359,4 @@ DEPENDENCIES
   whenever
 
 BUNDLED WITH
-   1.12.5
+   1.13.1
